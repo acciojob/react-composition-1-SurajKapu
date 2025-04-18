@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Tab = ({ tabData }) => {
   const [content, setContent] = useState(tabData[0].content);
-
+  // Minor change
   return (
     <div>
       <ul>
